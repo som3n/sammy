@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somen | Computer Science Engineer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./fabicon.png">
+</head>
+
+<body>
+    <!-- <div id="preloader">
+        <div class="text-animation text1">Hello</div>
+        <div class="text-animation text2">Hallo</div>
+        <div class="text-animation text3">Hola</div>
+        <div class="text-animation text4">Olá</div>
+        <div class="text-animation text5">привет</div>
+        <div class="text-animation text6">नमस्ते</div>
+    </div> -->
+    <section class="py-8 h-screen md:px-16 gradient-bg">
+        <nav class="container mx-auto flex justify-between items-center py-4 px-6">
+            <!-- Logo -->
+            <div class="text-3xl text-primary">Sammy<span class="text-5xl">.</span></div>
+
+            <!-- Menu Button for Mobile -->
+            <button id="menu-btn" class="md:hidden text-2xl focus:outline-none">
+                ☰
+            </button>
+
+            <!-- Navigation Links -->
+            <ul id="menu" class="hidden md:flex space-x-6 text-lg">
+                <li><a href="#work" class="hover:text-gray-600 transition-all duration-300">Works</a></li>
+                <li><a href="#about" class="hover:text-gray-600 transition-all duration-300">About</a></li>
+                <li><a href="./Somen_Samanta_Resume.pdf"
+                        class="hover:text-gray-600 transition-all duration-300">Résumé</a></li>
+            </ul>
+        </nav>
+
+        <!-- Mobile Menu (Hidden by default) -->
+        <div id="mobile-menu" class="hidden md:hidden flex flex-col items-center space-y-4 py-4">
+            <a href="#work" class="hover:text-gray-600 transition-all duration-300">Works</a>
+            <a href="#about" class="hover:text-gray-600 transition-all duration-300">About</a>
+            <a href="./Somen_Samanta_Resume.pdf" class="hover:text-gray-600 transition-all duration-300">Résumé</a>
+        </div>
+        <div class="flex flex-col justify-center md:h-3/4 h-2/3 mx-2 md:mx-0">
+            <h2 class="text-xl md:text-4xl">Hey there <span id="waving-hand" class="wave">👋</span>,</h2>
+            <p class="mt-4 text-3xl md:text-5xl">I'm <span class="text-primary font-semibold">Somen Samanta</span>, a
+                software
+                developer specializing in distributed systems, cloud computing, and automation.</p>
+        </div>
+        <div class="py-10 mx-2 md:mx-0"> &#64; Software Engineer | Cloud & Security Enthusiast | AI, DevOps & Automation
+            | Researcher
+        </div>
+    </section>
+    <section id="about" class="container mx-auto md:text-justify px-4 pb-5">
+        <h1 class="text-3xl px-4 pt-8 md:px-0">Hello again!</h1>
+        <p class="px-4 md:px-0 py-2 text-justify">I'm Somen Samanta, a Software Developer with a strong background in distributed
+            systems, cloud computing, and automation. I'm passionate about designing and building scalable,
+            high-performance applications that leverage modern technologies like AWS, Kubernetes, and CI/CD pipelines to
+            enhance efficiency and reliability.
+        </p>
+        <p class="px-4 md:px-0 py-2 text-justify">I started my journey in software development during my B.Tech in Computer
+            Science, where I worked on several
+            projects involving machine learning, networking, and cloud computing. My internships at Farmicon India and
+            IndoplanetX gave me hands-on experience in managing cloud infrastructure, optimizing machine learning models
+            on AWS, and deploying scalable web applications.
+        </p>
+        <p class="px-4 md:px-0 py-2 text-justify">Beyond technical skills, I believe in continuous learning and collaboration. I
+            enjoy working in dynamic
+            teams, sharing ideas, and solving complex challenges. I am always eager to explore new technologies and
+            apply them to real-world problems.
+        </p>
+
+        <h1 class="py-8 text-2xl">Education</h1>
+        <h3 class="text-sm font-semibold">Bachelors in Computer Science and Engineering, Uttarakhand Technical
+            University</h3>
+        <p class="text-sm">August 2021- June 2025</p>
+
+        <h1 class="pt-8 pb-4 text-2xl">Experience</h1>
+        <div class="flex space-x-4 items-center">
+            <img src="./farmicon.jpg" class="w-12 h-12" alt="">
+            <div class="flex flex-col justify-around">
+                <p class="font-semibold">Farmicon India Pvt. Ltd.</p>
+                <div class="text-sm text-gray-500 ">Internship <span class="text-3xl">.</span> Roorkee, Uttarakhand,
+                    India</div>
+            </div>
+        </div>
+        <div class="px-4 py-2">
+            <h3 class="font-semibold">UI Designer</h3>
+            <p class="text-sm text-gray-500 text-thin">Feb 2024 - Apr 2024</p>
+            <ul class="list-disc pl-5">
+                <li>Designed and developed the User Friendly Mobile app for farmicon</li>
+                <li>Developed design systems ensuring consistency across platforms.</li>
+                <li>Collaborated with developers to implement pixel-perfect UI designs.</li>
+            </ul>
+        </div>
+        <div class="px-4 pt-2 pb-5">
+            <h3 class="font-semibold">AWS Cloud Administrator Intern</h3>
+            <p class="text-sm text-gray-500 text-thin">Dec 2023 - Apr 2024</p>
+            <ul class="list-disc pl-5">
+                <li>Managed 20+ AWS EC2 instances and cloud services (S3, SNS, Lambda), ensuring 99.9% uptime.</li>
+                <li>Deployed and optimized 4+ machine learning models on AWS, improving automation and system
+                    performance.</li>
+                <li>Reduced AWS infrastructure costs by 15% through performance tuning, monitoring, and automation.</li>
+            </ul>
+        </div>
+        <hr>
+        <div class="flex space-x-4 items-center pt-5">
+            <img src="./isvr.jpg" class="w-12 h-12" alt="">
+            <div class="flex flex-col justify-around">
+                <p class="font-semibold">IndoplanetX Space Vault and Research Pvt. Ltd.</p>
+                <div class="text-sm text-gray-500 ">Internship <span class="text-3xl">.</span> Roorkee, Uttarakhand,
+                    India</div>
+            </div>
+        </div>
+        <div class="px-4 py-2">
+            <h3 class="font-semibold">Web Developer Intern </h3>
+            <p class="text-sm text-gray-500 text-thin">Dec 2022 - Sep 2023</p>
+            <ul class="list-disc pl-5">
+                <li>Developed a cloud-native application and built a responsive ReactJS-powered website, reducing load
+                    times by 30%.</li>
+                <li>Deployed and managed applications on AWS (EC2, S3), leveraging cloud scalability.</li>
+                <li>Implemented CI/CD pipelines for automated deployments, streamlining development processes.</li>
+            </ul>
+        </div>
+        <div class="px-4 py-2">
+            <h3 class="font-semibold">Research Intern</h3>
+            <p class="text-sm text-gray-500 text-thin">Sep 2022 - Mar 2023</p>
+            <ul class="list-disc pl-5">
+                <li>Conducted research on satellite communication and distributed systems, optimizing signal
+                    transmission and reception.</li>
+                <li>DeAnalyzed advancements in high-throughput, mission-critical systems for next-gen satellite
+                    technology.</li>
+            </ul>
+        </div>
+    </section>
+    <section id="work" class="container mx-auto my-5">
+        <h1 class="text-2xl md:text-3xl md:py-8 py-2 px-4">My Works</h1>
+        <div class="flex flex-col md:flex-row w-full p-4 md:space-x-4 py-10 items-center">
+            <!-- Image Section -->
+            <img src="./sentiment.png" class="w-full md:w-3/5 rounded-lg" alt="Sentiment Analysis">
+
+            <!-- Content Section -->
+            <div class="flex flex-col items-start w-full md:w-2/5 mt-6 md:mt-0">
+                <h1 class="text-2xl md:text-4xl font-semibold text-gray-900">
+                    Sentiment Analysis using Random Forest
+                </h1>
+
+                <ul class="flex flex-col space-y-3 my-6 md:my-8 pl-4 md:pl-8 text-gray-700">
+                    <li>Developed a <b>Machine Learning model for sentiment analysis</b>, processing unstructured text
+                        data and extracting insights.</li>
+                    <li>Utilized <b>Random Forest Classifier</b>, achieving <b>72.83% accuracy</b>, improving efficiency
+                        in sentiment classification.</li>
+                    <li>Integrated with <b>Python</b> and <b>scikit-learn</b>, ensuring scalability for real-world
+                        applications.</li>
+                </ul>
+
+                <a href="https://kaggle.com/code/somensamanta/sentiment-analysis"
+                    class="text-xl font-semibold text-blue-500 hover:text-gray-600 transition-all duration-300">
+                    Learn More &rarr;
+                </a>
+            </div>
+        </div>
+
+        <hr>
+        <div class="flex flex-col md:flex-row w-full p-4 md:space-x-4 py-10 items-center">
+            <!-- Image Section -->
+            <img src="./cubesat.jpg" class="w-full md:w-3/5 rounded-lg" alt="Weather Cube Satellite">
+
+            <!-- Content Section -->
+            <div class="flex flex-col items-start w-full md:w-2/5 mt-6 md:mt-0">
+                <h1 class="text-2xl md:text-4xl font-semibold text-gray-900">
+                    Weather Cube Satellite Code
+                </h1>
+
+                <ul class="flex flex-col space-y-3 my-6 md:my-8 pl-4 md:pl-8 text-gray-700">
+                    <li>Developed <b>DHT Sensor header</b> and communication files for real-time wireless data
+                        transmission in a Cube Satellite.</li>
+                    <li>Ensured <b>95% reliability</b> in processing data from 5+ onboard sensors for satellite
+                        telemetry.</li>
+                    <li>Focused on low-power, high-efficiency design to sustain satellite communication with minimal
+                        resource consumption.</li>
+                </ul>
+
+                <a href="https://github.com/som3n/Mini-cube-sat"
+                    class="text-xl font-semibold text-green-600 hover:text-gray-600 transition-all duration-300">
+                    Learn More &rarr;
+                </a>
+            </div>
+        </div>
+
+        <hr>
+        <div class="flex flex-col md:flex-row w-full p-4 md:space-x-4 py-10 items-center">
+            <!-- Image Section -->
+            <img src="./DNS.png" class="w-full md:w-3/5 rounded-lg" alt="Custom DNS Resolver">
+
+            <!-- Content Section -->
+            <div class="flex flex-col items-start w-full md:w-2/5 mt-6 md:mt-0">
+                <h1 class="text-2xl md:text-4xl font-semibold text-gray-900">
+                    Custom DNS Resolver
+                </h1>
+
+                <ul class="flex flex-col space-y-3 my-6 md:my-8 pl-4 md:pl-8 text-gray-700">
+                    <li><b>Designed a Custom DNS Resolver</b> to enhance domain name query speed and network efficiency.
+                    </li>
+                    <li>Implemented security features such as domain filtering and <b>DNS over HTTPS (DoH)</b> for
+                        improved privacy.</li>
+                    <li>Utilized Python and networking protocols to ensure smooth DNS resolution with minimal
+                        resource usage.</li>
+                </ul>
+
+                <a href="https://github.com/som3n/Custom_DNS"
+                    class="text-xl font-semibold text-red-500 hover:text-gray-600 transition-all duration-300">
+                    Learn More &rarr;
+                </a>
+            </div>
+        </div>
+
+    </section>
+    <footer class="bg-pink-100 px-8 py-16">
+        <h1 class="text-4xl">Like what you see??</h1>
+        <p class="text-3xl">View my <a href="./Somen_Samanta_Resume.pdf" class="text-primary">Résumé</a>, get in touch
+            👇</p>
+        <div class="flex space-x-3 py-6 text-xl">
+            <a href="mailto:thesomen123@gmail.com">Email 📩</a>
+            <span>|</span>
+            <a href="https://linkedin.com/in/somensamantacse/">LinkedIn 💼</a>
+        </div>
+        <p class="py-4">Designed and handcoded with ❤️ by Somen &copy; 2025</p>
+    </footer>
+
+    <script>
+        const menuBtn = document.getElementById("menu-btn");
+        const menu = document.getElementById("menu");
+        const mobileMenu = document.getElementById("mobile-menu");
+
+        menuBtn.addEventListener("click", () => {
+            mobileMenu.classList.toggle("hidden");
+        });
+        window.onload = function () {
+            setTimeout(() => {
+                document.getElementById("preloader").style.display = "none";
+            }, 9000);
+        };
+    </script>
+</body>
+
+</html>
